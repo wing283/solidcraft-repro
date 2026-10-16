@@ -4,7 +4,10 @@ Reproduction data and actual application screenshots for [bherbruck/solidcraft#1
 
 ## Files
 
-- [periodic-trim-attachments.zip](periodic-trim-attachments.zip): the two sanitized STEP fixtures, `periodic-trim-two-body.step` and `periodic-trim-single-body-control.step`.
+- [periodic-trim-two-body.step](periodic-trim-two-body.step): individual two-body STEP reproduction fixture.
+- [periodic-trim-single-body-control.step](periodic-trim-single-body-control.step): individual single-body control STEP fixture.
+
+These are ordinary repository files, available individually without extracting an archive. The original fixture-generation script was not available for this publication; no substitute generator is claimed or included.
 - [Two-body GUI screenshot](periodic-trim-two-body-gui.png).
 - [Single-body control GUI screenshot](periodic-trim-single-body-control-gui.png).
 
@@ -12,7 +15,7 @@ The screenshots were supplied by the reporter and show the actual Solidcraft GUI
 
 ## Reproduce
 
-1. Extract the ZIP.
+1. Download both STEP files from this repository.
 2. In Solidcraft v0.11.1, open each STEP file separately.
 3. Inspect the `REPRO_DISC` body and its Properties dialog in both imports.
 4. Compare the displayed geometry, volume, and bounding-box dimensions.
@@ -44,8 +47,7 @@ This documentation was prepared with AI assistance. The supplied screenshots rem
 
 | File | Bytes | SHA-256 |
 |---|---:|---|
-| periodic-trim-attachments.zip | 132689 | `94868991015433b5b7e5b348c58a14c1f2de97d4741325ecf8cd69ab05b035f0` |
 | periodic-trim-two-body-gui.png | 1214290 | `1e9177ffff0848127d105bc968906fc69b3946eeb9295dfb57a54713a7278fb4` |
 | periodic-trim-single-body-control-gui.png | 1032815 | `fed8e3bbaaf58d5c3314aac991e21ce22cf76eac8177e5e48fd271f9fe4fe361` |
-| periodic-trim-two-body.step (inside ZIP) | 421460 | `9d1705e6b2c57325751b5d8440737ee834371324495cc01d9825c9b6d7a00ba0` |
-| periodic-trim-single-body-control.step (inside ZIP) | 416729 | `87659db3bef5867b84270ae57569d5654bbafaae3d84a12e89582e37a855102f` |
+| periodic-trim-two-body.step | 421460 | `9d1705e6b2c57325751b5d8440737ee834371324495cc01d9825c9b6d7a00ba0` |
+| periodic-trim-single-body-control.step | 416729 | `87659db3bef5867b84270ae57569d5654bbafaae3d84a12e89582e37a855102f` |
